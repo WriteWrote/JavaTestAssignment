@@ -11,6 +11,6 @@ import javax.validation.constraints.NotNull;
 public interface DocumentRepository extends CrudRepository<DocumentEntity, Integer>,
         JpaRepository<DocumentEntity, Integer> {
     DocumentEntity findBySerialNumber(@NotNull(message = "document serialNumber cannot be null") Integer serialNumber);
-    void deleteBySerialNumber();
-    void deleteById();
+    void deleteBySerialNumber(@NotNull(message = "document serialNumber cannot be null") Integer serialNumber);
+    void deleteById(Integer id);
 }

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/src/main/java/test/eo/db/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/api/DocumentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/CreateDocumentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/test/eo/service/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/RestConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670320640644</updated>
       <workItem from="1670320642747" duration="3702000" />
-      <workItem from="1670346068070" duration="9709000" />
+      <workItem from="1670346068070" duration="10593000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670325617761</created>
@@ -121,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670496686756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created repository">
+      <created>1670499610369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670499610369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added TypeRepository">
+      <created>1670499674033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670499674033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +146,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="created structure, set configures and entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="created structure, set configures and entities" />
+    <MESSAGE value="created repository" />
+    <MESSAGE value="added TypeRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TypeRepository" />
   </component>
 </project>
