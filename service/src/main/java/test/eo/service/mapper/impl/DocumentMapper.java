@@ -1,6 +1,7 @@
 package test.eo.service.mapper.impl;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import test.eo.db.entities.DocumentEntity;
 import test.eo.db.repositories.DocumentRepository;
@@ -14,9 +15,13 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Component
-@RequiredArgsConstructor
 public class DocumentMapper implements IDocumentMapper {
     private final DocumentRepository rep;
+
+    @Autowired
+    public DocumentMapper(DocumentRepository rep) {
+        this.rep = rep;
+    }
 
     @Override
     public DocumentDto fromEntity(DocumentEntity entity) {
