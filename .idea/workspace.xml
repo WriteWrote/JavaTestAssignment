@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/get/GetDocumentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/create/CreateLinkDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/get/DocumentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/get/DocumentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/get/GetTypeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/get/GetTypeDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670320640644</updated>
       <workItem from="1670320642747" duration="3702000" />
-      <workItem from="1670346068070" duration="11810000" />
+      <workItem from="1670346068070" duration="12142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670325617761</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670501592454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DocumentDto">
+      <created>1670501862888</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670501862888</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,7 @@
     <MESSAGE value="CreateDocumentDto" />
     <MESSAGE value="CreateTypeDto" />
     <MESSAGE value="GetTypeDto&#10;CreateTypeDto added get-set" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetTypeDto&#10;CreateTypeDto added get-set" />
+    <MESSAGE value="DocumentDto" />
+    <option name="LAST_COMMIT_MESSAGE" value="DocumentDto" />
   </component>
 </project>

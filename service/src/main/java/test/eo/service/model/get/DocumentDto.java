@@ -1,13 +1,14 @@
 package test.eo.service.model.get;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.RequiredArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.List;
 
+@RequiredArgsConstructor
 public class DocumentDto {
-
     @JsonProperty("doctype")
     private Integer documentType;
 

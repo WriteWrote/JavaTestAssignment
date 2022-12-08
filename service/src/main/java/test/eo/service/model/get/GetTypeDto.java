@@ -1,10 +1,12 @@
 package test.eo.service.model.get;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.RequiredArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+@RequiredArgsConstructor
 public class GetTypeDto {
     @JsonProperty("id")
     private Integer id;
