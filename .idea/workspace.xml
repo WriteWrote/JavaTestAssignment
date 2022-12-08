@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="" />
+    <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/IDocumentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/impl/DocumentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/create/CreateLinkDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/create/CreateLinkDto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +31,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670501862888</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1670503421322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670503421322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +196,7 @@
     <MESSAGE value="CreateTypeDto" />
     <MESSAGE value="GetTypeDto&#10;CreateTypeDto added get-set" />
     <MESSAGE value="DocumentDto" />
-    <option name="LAST_COMMIT_MESSAGE" value="DocumentDto" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

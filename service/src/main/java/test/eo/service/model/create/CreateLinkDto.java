@@ -1,9 +1,7 @@
 package test.eo.service.model.create;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonAppend;
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
 
 @RequiredArgsConstructor
 public class CreateLinkDto {
