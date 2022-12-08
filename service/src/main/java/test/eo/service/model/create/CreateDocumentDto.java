@@ -1,4 +1,4 @@
-package test.eo.service.model;
+package test.eo.service.model.create;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.RequiredArgsConstructor;
