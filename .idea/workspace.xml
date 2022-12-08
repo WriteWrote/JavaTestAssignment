@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/api/DocumentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/CreateDocumentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/src/main/java/test/eo/service/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/RestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/CreateDocumentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/CreateDocumentDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670320640644</updated>
       <workItem from="1670320642747" duration="3702000" />
-      <workItem from="1670346068070" duration="10593000" />
+      <workItem from="1670346068070" duration="11449000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670325617761</created>
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670499674033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created rest controller">
+      <created>1670500357164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670500357164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +152,7 @@
     <MESSAGE value="created structure, set configures and entities" />
     <MESSAGE value="created repository" />
     <MESSAGE value="added TypeRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TypeRepository" />
+    <MESSAGE value="created rest controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="created rest controller" />
   </component>
 </project>
