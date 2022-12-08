@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - preConditions:
+      - dbms:
+          type: postgresql
+  - changeSet:
+      id: TAP-001-202212081217
+      author: EllinaObukhova
+      comment: Create Initial DB Structure
+      changes:
+        - sqlFile:
+            path: TAP-001-202212081217.sql
+            relativeToChangelogFile: true
