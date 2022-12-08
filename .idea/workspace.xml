@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/DatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/entities/DocumentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/entities/TypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/resources/db.migration/1.0/TAP-001-202212081217.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/resources/db.migration/1.0/_changelog-cumulative.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/resources/db.migration/changelog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/service/RestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/ServiceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/eo/RunApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/repositories/DocumentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/db/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rest/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/test/eo/db/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/test/eo/db/DatabaseConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -120,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670320640644</updated>
       <workItem from="1670320642747" duration="3702000" />
-      <workItem from="1670346068070" duration="8609000" />
+      <workItem from="1670346068070" duration="9709000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670325617761</created>
@@ -129,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670325617761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created structure, set configures and entities">
+      <created>1670496686756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670496686756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="created structure, set configures and entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="created structure, set configures and entities" />
   </component>
 </project>

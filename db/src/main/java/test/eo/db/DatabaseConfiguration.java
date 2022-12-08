@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EntityScan(basePackages = {
-        "db.src.main.java.entities"
+        "test.eo.db.entities"
 })
 @EnableJpaRepositories
 @EnableTransactionManagement
