@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/IDocumentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/TypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/mapper/impl/DocumentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/create/CreateLinkDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/model/create/CreateLinkDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/IDocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/ITypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/impl/DocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/impl/TypeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -179,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670503421322</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mappers">
+      <created>1670507274958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670507274958</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed bug w/ noninitialized final in DocumentMapper">
+      <created>1670507365294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670507365294</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +210,8 @@
     <MESSAGE value="GetTypeDto&#10;CreateTypeDto added get-set" />
     <MESSAGE value="DocumentDto" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="mappers" />
+    <MESSAGE value="fixed bug w/ noninitialized final in DocumentMapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug w/ noninitialized final in DocumentMapper" />
   </component>
 </project>
