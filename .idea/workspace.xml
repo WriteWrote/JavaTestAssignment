@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b131b81-0997-4e7f-af5e-bbe40923499c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/IDocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/IDocumentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/impl/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/logic/impl/DocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/api/TypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/test/eo/rest/RestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/test/eo/service/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/test/eo/service/ServiceConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
       <updated>1670320640644</updated>
       <workItem from="1670320642747" duration="3702000" />
       <workItem from="1670346068070" duration="12142000" />
-      <workItem from="1670748911441" duration="6174000" />
+      <workItem from="1670748911441" duration="6814000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670325617761</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670765220707</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DocumentService: createLink()">
+      <created>1670765525864</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670765525864</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +260,7 @@
     <MESSAGE value="DocumentService: constructor" />
     <MESSAGE value="DocumentService: merging + crud" />
     <MESSAGE value="DocumentService: merging + crd" />
-    <option name="LAST_COMMIT_MESSAGE" value="DocumentService: merging + crd" />
+    <MESSAGE value="DocumentService: createLink()" />
+    <option name="LAST_COMMIT_MESSAGE" value="DocumentService: createLink()" />
   </component>
 </project>
