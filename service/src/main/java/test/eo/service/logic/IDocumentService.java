@@ -10,13 +10,13 @@ public interface IDocumentService {
     DocumentDto getDocumentById(Integer id);
     DocumentDto getDocumentBySerialNumber(Integer serial);
 
-    CreateDocumentDto createDocument(@Valid CreateDocumentDto dto);
+    DocumentDto createDocument(@Valid CreateDocumentDto dto);
 
     List<DocumentDto> getAllDocuments();
     void deleteDocumentById(Integer id);
     void deleteDocumentBySerialNumber(Integer serial);
 
-    DocumentDto updateDocument(@Valid DocumentDto oldDoc);
+    DocumentDto updateDocument(@Valid DocumentDto newDoc);
 
     DocumentDto createLink(@Valid DocumentDto leftDoc, @Valid DocumentDto rightDoc);
 }

@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import test.eo.db.entities.DocumentEntity;
 import test.eo.db.repositories.DocumentRepository;
 import test.eo.service.mapper.IDocumentMapper;
+import test.eo.service.model.create.CreateDocumentDto;
 import test.eo.service.model.get.DocumentDto;
 
 import javax.swing.text.html.parser.Entity;
@@ -55,6 +56,22 @@ public class DocumentMapper implements IDocumentMapper {
                 dto.getLinkedDocsSerialNumbers()) {
             entity.getLinkedDocs().add(rep.findBySerialNumber(d));
         }
+
+        return entity;
+    }
+
+    @Override
+    public DocumentEntity toEntity(CreateDocumentDto dto) {
+        DocumentEntity entity = new DocumentEntity();
+
+        entity.setDocumentType(dto.getDocumentType());
+        entity.setHeader(dto.getHeader());
+        entity.setText(dto.getText());
+
+        //Todo: generation of serial number
+        entity.setSerialNumber(null);
+
+        entity.setLinkedDocs(new ArrayList<>());
 
         return entity;
     }
