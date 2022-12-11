@@ -27,7 +27,7 @@ public class TypeService implements ITypeService {
 
 
     @Override
-    public GetTypeDto createDto(CreateTypeDto dto) {
+    public GetTypeDto createType(CreateTypeDto dto) {
         return Optional.of(dto)
                 .map(mapper::toEntity)
                 .map(rep::save)
@@ -37,17 +37,19 @@ public class TypeService implements ITypeService {
     }
 
     @Override
-    public GetTypeDto getDto(GetTypeDto dto) {
-        return null;
+    public GetTypeDto getTypeById(Integer id) {
+        return rep.findById(id)
+                .map(mapper::fromEntity)
+                .orElseThrow();
     }
 
     @Override
     public void deleteTypeById(Integer id) {
-
+        rep.deleteById(id);
     }
 
     @Override
     public List<GetTypeDto> getAllTypes() {
-        return null;
+        return mapper.fromEntities(rep.findAll());
     }
 }
