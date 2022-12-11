@@ -85,6 +85,8 @@ public class DocumentService implements IDocumentService {
             rightDoc.setLinkedDocsSerialNumbers(new ArrayList<>());
         }
 
+        //todo: make available only certain types of links betw docs
+
         leftDoc.getLinkedDocsSerialNumbers().add(rightDoc.getSerialNumber());
         rightDoc.getLinkedDocsSerialNumbers().add(leftDoc.getSerialNumber());
 
