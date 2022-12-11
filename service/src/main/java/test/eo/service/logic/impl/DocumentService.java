@@ -78,10 +78,10 @@ public class DocumentService implements IDocumentService {
 
     @Override
     public void createLink(DocumentDto leftDoc, DocumentDto rightDoc) {
-        if (leftDoc.getLinkedDocsSerialNumbers().isEmpty()){
+        if (leftDoc.getLinkedDocsSerialNumbers().isEmpty()) {
             leftDoc.setLinkedDocsSerialNumbers(new ArrayList<>());
         }
-        if(rightDoc.getLinkedDocsSerialNumbers().isEmpty()){
+        if (rightDoc.getLinkedDocsSerialNumbers().isEmpty()) {
             rightDoc.setLinkedDocsSerialNumbers(new ArrayList<>());
         }
 
@@ -97,5 +97,13 @@ public class DocumentService implements IDocumentService {
         e = rep.findBySerialNumber(rightDoc.getSerialNumber());
 
         rep.save(map.merge(map.fromEntity(e), rightDoc));
+    }
+
+    @Override
+    public void createLink(Integer leftSerial, Integer rightSerial) {
+        createLink(map.fromEntity(
+                        rep.findBySerialNumber(leftSerial)),
+                map.fromEntity(
+                        rep.findBySerialNumber(rightSerial)));
     }
 }

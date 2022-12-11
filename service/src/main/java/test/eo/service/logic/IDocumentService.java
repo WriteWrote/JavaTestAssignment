@@ -19,4 +19,5 @@ public interface IDocumentService {
     DocumentDto updateDocument(@Valid DocumentDto newDoc);
 
     void createLink(@Valid DocumentDto leftDoc, @Valid DocumentDto rightDoc);
+    void createLink(Integer leftSerial, Integer rightSerial);
 }

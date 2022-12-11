@@ -6,23 +6,23 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class CreateLinkDto {
     @JsonProperty
-    private Integer leftId;
+    private Integer leftSerial;
     @JsonProperty
-    private Integer rightId;
+    private Integer rightSerial;
 
-    public Integer getLeftId() {
-        return leftId;
+    public Integer getLeftSerial() {
+        return leftSerial;
     }
 
-    public void setLeftId(Integer leftId) {
-        this.leftId = leftId;
+    public void setLeftSerial(Integer leftSerial) {
+        this.leftSerial = leftSerial;
     }
 
-    public Integer getRightId() {
-        return rightId;
+    public Integer getRightSerial() {
+        return rightSerial;
     }
 
-    public void setRightId(Integer rightId) {
-        this.rightId = rightId;
+    public void setRightSerial(Integer rightSerial) {
+        this.rightSerial = rightSerial;
     }
 }
