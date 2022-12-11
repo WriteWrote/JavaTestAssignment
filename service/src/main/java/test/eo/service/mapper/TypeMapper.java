@@ -13,6 +13,7 @@ public interface TypeMapper {
     GetTypeDto fromEntity(TypeEntity entity);
 
     TypeEntity toEntity(GetTypeDto dto);
+    TypeEntity toEntity(CreateTypeDto dto);
 
     List<GetTypeDto> fromEntities(Iterable<TypeEntity> entities);
 

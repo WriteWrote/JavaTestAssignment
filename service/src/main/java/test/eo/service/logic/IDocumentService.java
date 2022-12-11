@@ -1,22 +1,22 @@
 package test.eo.service.logic;
 
 import test.eo.service.model.create.CreateDocumentDto;
-import test.eo.service.model.create.CreateTypeDto;
 import test.eo.service.model.get.DocumentDto;
 
+import javax.validation.Valid;
 import java.util.List;
 
 public interface IDocumentService {
     DocumentDto getDocumentById(Integer id);
-    DocumentDto getdocumentBySerialNumber(Integer serial);
+    DocumentDto getDocumentBySerialNumber(Integer serial);
 
-    CreateDocumentDto createDocument(CreateDocumentDto dto);
+    CreateDocumentDto createDocument(@Valid CreateDocumentDto dto);
 
-    List<DocumentDto> getallDocuments();
+    List<DocumentDto> getAllDocuments();
     void deleteDocumentById(Integer id);
     void deleteDocumentBySerialNumber(Integer serial);
 
-    DocumentDto updateDocument(DocumentDto oldDoc);
+    DocumentDto updateDocument(@Valid DocumentDto oldDoc);
 
-    DocumentDto createLink(DocumentDto leftDoc, DocumentDto rightDoc);
+    DocumentDto createLink(@Valid DocumentDto leftDoc, @Valid DocumentDto rightDoc);
 }

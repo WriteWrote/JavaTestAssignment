@@ -7,7 +7,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 public interface ITypeService {
-    CreateTypeDto createDto(@Valid CreateTypeDto dto);
+    GetTypeDto createDto(@Valid CreateTypeDto dto);
 
     GetTypeDto getDto(GetTypeDto dto);
 
