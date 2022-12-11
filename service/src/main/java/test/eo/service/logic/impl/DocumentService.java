@@ -10,6 +10,7 @@ import test.eo.service.mapper.impl.DocumentMapper;
 import test.eo.service.model.create.CreateDocumentDto;
 import test.eo.service.model.get.DocumentDto;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -76,9 +77,23 @@ public class DocumentService implements IDocumentService {
     }
 
     @Override
-    public DocumentDto createLink(DocumentDto leftDoc, DocumentDto rightDoc) {
+    public void createLink(DocumentDto leftDoc, DocumentDto rightDoc) {
+        if (leftDoc.getLinkedDocsSerialNumbers().isEmpty()){
+            leftDoc.setLinkedDocsSerialNumbers(new ArrayList<>());
+        }
+        if(rightDoc.getLinkedDocsSerialNumbers().isEmpty()){
+            rightDoc.setLinkedDocsSerialNumbers(new ArrayList<>());
+        }
 
+        leftDoc.getLinkedDocsSerialNumbers().add(rightDoc.getSerialNumber());
+        rightDoc.getLinkedDocsSerialNumbers().add(leftDoc.getSerialNumber());
 
-        return null;
+        DocumentEntity e = rep.findBySerialNumber(leftDoc.getSerialNumber());
+
+        rep.save(map.merge(map.fromEntity(e), leftDoc));
+
+        e = rep.findBySerialNumber(rightDoc.getSerialNumber());
+
+        rep.save(map.merge(map.fromEntity(e), rightDoc));
     }
 }
